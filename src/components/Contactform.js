@@ -91,7 +91,7 @@ const Contactform = () => {
             </div>
           </div>
         </div>
-        <div className="form-fix wow animate__fadeInLeftBig">
+        <div className="form-fix wow animate__fadeInRightBig">
           <h2>Start the project</h2>
           <form className="form">
             <div className="form-group">
