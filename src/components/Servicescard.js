@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Servicescard = () => {
   return (
-    <section className="amazing_box">
+    <section className="amazing_box" id="services">
       <div className="container">
         <p className="round_title">
           <span className="green_round"></span>our services

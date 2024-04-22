@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Testimonial = () => {
   return (
-    <section className="customer wow animate__bounceInUp">
+    <section className="customer wow animate__bounceInUp" id='testimonials'>
         <div className="container">
           <div className="happy_customer">
             <Image

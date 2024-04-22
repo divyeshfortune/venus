@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Portfolio = () => {
   return (
-    <section className="portfolio">
+    <section className="portfolio" id="portfolio">
       <div className="portfolio_heading wow animate__zoomInLeft">
         <p className="round_title">
           <span className="green_round"></span>portfolio

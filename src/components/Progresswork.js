@@ -31,7 +31,7 @@ const Progresswork = () => {
       }
 
   return (
-    <section className="landing_section">
+    <section className="landing_section" id="about">
       <div className="container">
         <div className="landing_main">
           <div className="landing_image wow animate__slideInLeft">
