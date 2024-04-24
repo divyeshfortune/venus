@@ -71,7 +71,7 @@ const Header = () => {
 
     return () => {
       // Clean up event listeners when component unmounts
-      document.querySelector('.mobile-toggle').removeEventListener('click', navigation);
+      // document.querySelector('.mobile-toggle').removeEventListener('click', navigation);
       document.querySelector('.navclose').removeEventListener('click', removeNav);
       navitems.forEach((t) => {
         t.removeEventListener('click', () => {});

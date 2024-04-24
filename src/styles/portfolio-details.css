@@ -1,0 +1,54 @@
+/* Slider Section Start */
+.branding_heading{
+    @apply pt-[5.9375rem];
+}
+.branding_heading p{
+    @apply text-[#547593] text-xl max-w-[38.6875rem] pb-[3.6875rem];
+}
+.blaze-pagination{
+    @apply flex gap-[0.875rem] justify-center mt-8;
+}
+.blaze-pagination button.active{
+    @apply bg-primary border-white scale-[1.2];
+}
+.blaze-pagination button:hover{
+    @apply scale-[1.2];
+}
+.blaze-pagination button{
+    @apply bg-[#BBC8D5] border-none rounded-full text-[#0000] cursor-pointer;
+    transition: 0.5s ease-in-out;
+}
+.blaze-pagination button, .example-slider .blaze-pagination button{
+    @apply w-4 h-4;
+}
+/* Product Details Start */
+.product_details_title{
+    @apply md:text-[1.6875rem] text-[1.0625rem] md:leading-[2.25rem] leading-[2rem] font-normal text-midnight_text pb-[3.625rem];
+}
+.product_info p{
+    @apply sm:text-18 text-base font-normal text-[#547593] max-w-[19.4375rem];
+}
+.product_info{
+    @apply flex items-start justify-between sm:flex-row flex-col lg:gap-0 gap-4;
+}
+.services_content_main{
+    @apply pt-[3.625rem] pb-[6.25rem] flex items-start w-full justify-between flex-wrap sm:flex-nowrap lg:gap-0 gap-8;
+}
+.product_content{
+    @apply lg:w-[60%] w-full;
+}
+.service_sidebar{
+    @apply flex flex-col items-start;
+}
+.service_sidebar{
+    @apply bg-white shadow-[0px_20px_80px_0px_#68758D26] pt-[2.5rem] lg:pl-[3.3125rem] pl-[2.3125rem] pb-[1.9375rem] lg:pr-[10.5rem] pr-[2.5rem] lg:w-[30%] w-full;
+}
+.service_sidebar span{
+    @apply pb-6;
+}
+.inner_page section.customer{
+    @apply border-b border-solid border-[#2F73F24D] max-w-[73.125rem] m-auto;
+}
+.inner_page footer{
+    @apply border-t border-solid border-[#2F73F24D] max-w-[73.125rem] m-auto;
+}

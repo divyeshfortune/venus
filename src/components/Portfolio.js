@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Portfolio = () => {
   return (
@@ -15,7 +16,7 @@ const Portfolio = () => {
         </p>
       </div>
       <div className="showcase_main">
-        <div className="showcase_box wow animate__fadeInLeft">
+        <Link href="/portfolio-details" className="showcase_box wow animate__fadeInLeft">
           <Image
             src="/images/cozycasa.png"
             alt="cozycasa"
@@ -27,8 +28,8 @@ const Portfolio = () => {
           />
           <h4>Cozycasa</h4>
           <p>Designation</p>
-        </div>
-        <div className="showcase_box box_top_padding wow animate__fadeInDownBig">
+        </Link>
+        <Link href="/portfolio-details" className="showcase_box box_top_padding wow animate__fadeInDownBig">
           <Image
             src="/images/mars.png"
             alt="mars"
@@ -40,8 +41,8 @@ const Portfolio = () => {
           />
           <h4>Mars</h4>
           <p>Designation</p>
-        </div>
-        <div className="showcase_box wow animate__backInUp">
+        </Link>
+        <Link href="/Portfolio-details" className="showcase_box wow animate__backInUp">
           <Image
             src="/images/humans.png"
             alt="Everyday Humans"
@@ -53,8 +54,8 @@ const Portfolio = () => {
           />
           <h4>Everyday Humans</h4>
           <p>Designation</p>
-        </div>
-        <div className="showcase_box box_top_padding wow animate__fadeInBottomRight">
+        </Link>
+        <Link href="/Portfolio-details" className="showcase_box box_top_padding wow animate__fadeInBottomRight">
           <Image
             src="/images/roket-squred.png"
             alt="Rocket Squared"
@@ -66,8 +67,8 @@ const Portfolio = () => {
           />
           <h4>Rocket Squared</h4>
           <p>Designation</p>
-        </div>
-        <div className="showcase_box wow animate__fadeInRight">
+        </Link>
+        <Link href="/Portfolio-details" className="showcase_box wow animate__fadeInRight">
           <Image
             src="/images/panda-logo.png"
             alt="Panda Logo"
@@ -79,7 +80,7 @@ const Portfolio = () => {
           />
           <h4>Panda Logo</h4>
           <p>Designation</p>
-        </div>
+        </Link>
       </div>
     </section>
   );
