@@ -13,7 +13,7 @@ const Blog = () => {
             </Link>
         </div>
         <div className="blog-list">
-          <Link href="#" className="blog-item pricing wow animate__fadeInRightBig">
+          <Link href="/Blog-details" className="blog-item pricing wow animate__fadeInRightBig">
             <div className="blog-img">
               <Image
                 src="/images/pricing.png"
@@ -31,7 +31,7 @@ const Blog = () => {
                 <span>16 Hours ago</span>
             </div>
           </Link>
-          <Link href="#" className="blog-item meeting wow animate__fadeInUp">
+          <Link href="/Blog-details" className="blog-item meeting wow animate__fadeInUp">
             <div className="blog-img">
               <Image
                 src="/images/meeting.png"
@@ -49,7 +49,7 @@ const Blog = () => {
                 <span>1 Daya ago</span>
             </div>
           </Link>
-          <Link href="#" className="blog-item updates wow animate__fadeInTopLeft">
+          <Link href="/Blog-details" className="blog-item updates wow animate__fadeInTopLeft">
             <div className="blog-img">
               <Image
                 src="/images/updates.png"
