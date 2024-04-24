@@ -1,6 +1,6 @@
 /* Footer Section Start */
 .footer_main{
-	@apply grid grid-cols-12 mt-[4.375rem] mb-[4rem];
+	@apply grid grid-cols-12 items-center lg:mt-[4.375rem] mt-[2.375rem] lg:mb-[4rem] mb-[2rem];
 }
 .m_twitter{
 	@apply bg-[url('/icon/twitter.svg')] bg-no-repeat bg-contain w-[1.5625rem] h-5 inline-block hover:bg-[url('/icon/twitter-hover.svg')];
@@ -8,7 +8,7 @@
 .m_facebook{
 	@apply bg-[url('/icon/facebook.svg')] bg-no-repeat bg-contain w-[1.5625rem] h-5 inline-block hover:bg-[url('/icon/facebook-hover.svg')];
 }
-.m_linkdin{
+.m_linkedin{
 	@apply bg-[url('/icon/linkedin.svg')] bg-no-repeat bg-contain w-[1.5625rem] h-5 inline-block hover:bg-[url('/icon/linkedin-hover.svg')];
 }
 .ftr_logo{
@@ -18,38 +18,9 @@
 	@apply col-span-6 flex items-center justify-end gap-[2.3125rem];
 }
 /* Footer End */
-.go-top {
-	position:relative;
-	bottom: 20%;
-	right: 0;
-	left: 95%;
-	padding:20px;
-	cursor: pointer;
-	  -webkit-font-smoothing: antialiased;
-  }
-  .go-top:after {
-	content: '';
-	position: absolute;
-	color: #6a6e7c;
-	bottom:10px;
-	width: 50px;
-	height: 50px;
-	background-image: url('/icon/top-arrow.svg');
-	background-size: contain;
-	background-repeat: no-repeat;
-  }
-  
-  .go-top-text {
-	  position: absolute;
-	  width: 60px;
-	  text-align: center;
-	  line-height: 1.5;
-	  letter-spacing: 3px;
-	  font-size: 12px;
-	  margin: 20px 0 0 -4px;
-  }
-  
-  .go-top:hover {
-	  transition: all .4s linear;
-  }
-  
+.dp_backto_top {
+    @apply fixed hidden bottom-[10%] md:right-[2%] right-[5%] p-5 cursor-pointer before:content-[''] before:absolute before:w-8 before:h-8 before:bg-[url('/icon/top-arrow.svg')] before:bg-no-repeat before:bg-cover;
+}
+.dp_backto_top.visible {
+    @apply block;
+}

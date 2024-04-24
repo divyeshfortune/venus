@@ -4,27 +4,25 @@ import Image from "next/image";
 import Link from "next/link";
 
 const Footer = () => {
+  
   const [isVisible, setIsVisible] = useState(false);
 
-  // Scroll event listener
-  const handleScroll = () => {
-    const scrolled = window.scrollY;
-    if (scrolled > 200) {
-      setIsVisible(true);
-    } else {
-      setIsVisible(false);
-    }
-  };
-
-  // Effect for adding and removing scroll event listener
   useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
+    const toggleVisibility = () => {
+      if (window.pageYOffset > 500) { // Adjust the value as needed
+        setIsVisible(true);
+      } else {
+        setIsVisible(false);
+      }
+    };
+
+    window.addEventListener('scroll', toggleVisibility);
+
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener('scroll', toggleVisibility);
     };
   }, []);
 
-  // Click event handler
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -55,13 +53,12 @@ const Footer = () => {
               <i className="m_facebook"></i>
             </Link>
             <Link href="#">
-              <i className="m_linkdin"></i>
+              <i className="m_linkedin"></i>
             </Link>
           </div>
         </div>
       </div>
-      <div className={`go-top ${isVisible ? 'visible' : ''}`} onClick={scrollToTop}>
-        <p className="go-top-text">Back To Top</p>
+      <div className={`dp_backto_top ${isVisible ? 'visible' : ''}`} onClick={scrollToTop}>
       </div>
     </footer>
   );

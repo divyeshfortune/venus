@@ -18,11 +18,14 @@ a.btn.btn-sticky{
 .sticky-toggle i{
 	@apply !bg-white;
 }
+.stickey .header-inner{
+	@apply py-4;
+}
 .hdr-logonav-scn {
 	@apply w-full relative;
 }
 .header-inner {
-	@apply flex w-full sm:justify-between items-center pt-2;
+	@apply flex w-full sm:justify-between items-center pt-9;
 	flex-flow: row wrap;
 }
 /*Navigation Start*/
@@ -38,7 +41,7 @@ a.btn.btn-sticky{
 	@apply text-17 mx-[0.875rem];
 }
 .navigation ul li>a {
-	@apply text-midnight_text font-normal relative inline-block pt-6 pb-[1.375rem] border-2 border-solid border-transparent;
+	@apply text-midnight_text font-normal relative inline-block border-2 border-solid border-transparent;
 	transition: 0.5s all;
 }
 .logo {
@@ -109,7 +112,7 @@ a.btn.btn-sticky{
 	@apply px-0;
 }
 .navigation-inner{
-	@apply lg:w-auto w-[calc(100%_-_60px)] sm:w-[calc(600px_-_60px)];
+	@apply lg:w-auto w-[calc(100%_-_60px)] sm:w-[calc(600px_-_45px)];
 }
 .menu-open .navclose{
 	@apply right-0;

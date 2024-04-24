@@ -89,6 +89,6 @@ html {
     @apply text-14 font-medium text-midnight_text flex items-center gap-[0.375rem];
   }
   .box_top_padding{
-    @apply md:mt-[6.9375rem] mt-0;
+    @apply lg:mt-[6.9375rem] mt-0;
   }
 }
