@@ -109,7 +109,7 @@ const Header = () => {
             </nav>
             <div className="logo">
               {/* Change logo source based on isSticky state */}
-              <Link href="#" className="logo">
+              <Link href="/" className="logo">
                 <Image
                   src={isSticky ? '/icon/logo-white.svg' : '/icon/logo.svg'}
                   alt="logo"
