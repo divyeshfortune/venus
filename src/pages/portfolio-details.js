@@ -43,7 +43,7 @@ const portfoliodetails = () => {
                 </p>
                 <p>
                   Lorem Ipsum as their default model text, and a search for
-                  'lorem ipsum' will uncover many web sites still in their
+                  lorem ipsum will uncover many web sites still in their
                   infancy. Various versions have evolved over.
                 </p>
               </div>
