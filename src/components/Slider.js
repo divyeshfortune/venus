@@ -10,7 +10,7 @@ const Slider = () => {
     if (el) {
       new BlazeSlider(el, {
         all: {
-          enableAutoplay: false,
+          enableAutoplay: true,
           autoplayInterval: 2000,
           transitionDuration: 300,
           slidesToShow: 2,

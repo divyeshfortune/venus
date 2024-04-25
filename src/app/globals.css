@@ -91,4 +91,7 @@ html {
   .box_top_padding{
     @apply lg:mt-[6.9375rem] mt-0;
   }
+  .blog_hashtage{
+    @apply bg-[#D6E4FF] text-primary text-16 font-medium py-1 px-[1.5938rem] rounded-md inline-block;
+  }
 }
